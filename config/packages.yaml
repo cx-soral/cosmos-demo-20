@@ -6,4 +6,6 @@ repositories:
 packages:
   xia-module:
   xia-module-application-gh:
+  xia-module-terraform-gcs:
+  xia-module-gcp-project:
 #    repository: develop

@@ -1,0 +1,2 @@
+backend: gcs
+tf_bucket: cosmos-demo-20-gcs

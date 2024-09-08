@@ -1,30 +1,17 @@
 git: github
 topology:
-#  type:
+  type: gcp
 settings:
-#  cosmos_name:
-#  cosmos_project:
-#  bucket_name:
-#  bucket_region:
+  cosmos_name: cosmos-demo-20
+  cosmos_project: cosmos-demo-20
+  bucket_name: cosmos-demo-20-gcs
+  bucket_region: eu
 foundations:
   default_visibility: public
-#  default_owner:
+  default_owner: cx-soral
   default_tpl_owner: x-i-a
   default_tpl_name: xia-template-foundation
 structure:
-#  realms:
-#    realm-1:
-#      realms:
-#        realm-1-1:
-#          realms:
-#            realm-1-1-1:
-#              foundations:
-#                foundation-1-1-1-a:
-#          foundations:
-#            foundation-1-1-a:
-#      foundations:
-#        foundation-1-a:
-#    realm-2:
-#      foundations:
-#        foundation-2-a:
-#        foundation-2-b:
+  foundations:
+    foundation-demo-20:
+

@@ -8,3 +8,19 @@ gh-module-application:
   package: xia-module-application-gh
   events:
     activate:
+module-cosmos-backend-gcs:
+  package: xia-module-terraform-gcs
+  events:
+    deploy:
+module-foundation-state-gcs:
+  package: xia-module-terraform-gcs
+  events:
+    deploy:
+gcp-module-organization:
+  package: xia-module-gcp-project
+  events:
+    deploy:
+gcp-module-admin:
+  package: xia-module-gcp-project
+  events:
+    deploy:
