@@ -1,11 +1,11 @@
 repositories:
   default:
-#  develop:
-#    git_https: github.com/x-i-a
+  develop:
+    git_https: github.com/x-i-a
 
 packages:
   xia-module:
   xia-module-application-gh:
   xia-module-terraform-gcs:
   xia-module-gcp-project:
-#    repository: develop
+    repository: develop
